@@ -40,7 +40,7 @@ MYSQL * connect_mysql(MYSQL *con)
         exit(1);
     }
 
-    if (mysql_real_connect(con, "localhost", "admin", "d8D#^#l0p#r",
+    if (mysql_real_connect(con, "localhost", "admin", "sagar@123456r",
           "sdwan", 0, NULL, 0) == NULL)
     {
         finish_with_error(con);
